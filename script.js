@@ -2,15 +2,15 @@ var word = "sausages";
     var count = 10;
 
    while (count > 0) {
-     console.log(count + " " + word + " sizzling in a pan, one went pop and the other went bang");
+     console.log(count + " " + word + " sizzling in a pan, ");
     //  console.log(count + " " + word + " sizzling in a pan, one went pop and the other went bang");
-     console.log("Take one down, pass it around,");
+     console.log("one went pop and the other went bang");
      count = count - 2;
 
    if (count > 0) {
     //   console.log(count + " " + word + " sizzling in a pan, one went pop and the other went bang");
    } else {
-      console.log("No more " + word + "sizzling in a pan, one went pop and the other went bang");
+      console.log("No more " + word + " sizzling in a pan.");
      }
  }
 
@@ -18,13 +18,13 @@ var word = "sausages";
 //And the last verse is missing... No more bottles left, etc. 
 
 console.log( "Written using a for loop" );
-for ( sausages = 10; sausages >= 2; sausages-- )
-    console.log(sausages + "  sizzling in a pan, one went pop and the other went bang! " + ( sausages - 2 ) + " sizzling in a pan, one went pop and the other went bang!" + ( sausages - 2 ) + " sizzling in a pan, one went pop and the other went bang!" + "<br><br>" );
+for ( sausages = 10; sausages >= 0; sausages-- )
+    console.log(sausages + " sizzling in a pan, one went pop and the other went bang! ");
 
 
 
 
-
+    // + ( sausages - 2 ) + " sizzling in a pan, one went pop and the other went bang!" + ( sausages - 2 ) + " sizzling in a pan, one went pop and the other went bang!" + "<br><br>"
 
 
     //     Ten fat sausages, 
