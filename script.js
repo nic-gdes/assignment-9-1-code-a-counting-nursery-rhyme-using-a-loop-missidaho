@@ -54,3 +54,13 @@ while (count > 0) {
 console.log ("No More bottles of beer on the wall")
 
 
+
+const list = document.querySelector('#list');
+for(var sausages = 10; sausages >= 2; sausages = sausages -= 2) {
+  let textString =  sausages + " sizzling in a pan, one went pop and the other went bang! No more sausages sizzling in a pan."
+
+
+const verse = document.createElement('p');
+verse.textContent = textString;
+list.appendChild(verse);
+}
